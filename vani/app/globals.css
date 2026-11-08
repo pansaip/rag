@@ -1,0 +1,289 @@
+@import "react-pdf/dist/Page/TextLayer.css";
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  background: #f7f7f5;
+  color: #20211f;
+  font-family: Arial, "Noto Sans Thai", "Leelawadee UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f7f7f5;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: #d9e8df;
+  color: #173d2c;
+}
+
+.research-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(360px, 2fr);
+  gap: 0;
+  width: 100%;
+  height: 100dvh;
+  min-height: 640px;
+  padding: 12px;
+  background: #f7f7f5;
+}
+
+.pdf-pane,
+.chat-pane {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.pdf-pane {
+  padding-right: 10px;
+}
+
+.pdf-pane-header,
+.chat-pane-header {
+  display: flex;
+  min-height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+}
+
+.pdf-viewer-wrap {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  flex-direction: column;
+}
+
+.chat-pane {
+  overflow: hidden;
+  border: 1px solid #e7e8e2;
+  border-radius: 16px;
+  background: #fbfbf9;
+}
+
+.chat-pane-header {
+  border-bottom: 1px solid #e9e9e4;
+  background: #fff;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.chat-conversation {
+  min-height: 0;
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px 16px;
+}
+
+.chat-composer {
+  flex-shrink: 0;
+  border-top: 1px solid #e9e9e4;
+  background: rgb(247 247 245 / 95%);
+  padding: 12px 16px;
+  backdrop-filter: blur(8px);
+}
+
+.viewer-control {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e2e5de;
+  border-radius: 7px;
+  background: #fff;
+  color: #50564e;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.viewer-control:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.citation-pdf-highlight {
+  position: absolute;
+  z-index: 2;
+  border-radius: 2px;
+  background: rgb(255 216 86 / 42%);
+  box-shadow: 0 0 0 1px rgb(190 139 17 / 30%);
+  pointer-events: none;
+}
+
+.citation-marker {
+  display: inline;
+  margin-left: 0.12em;
+  padding: 0 0.08em;
+  border: 0;
+  background: transparent;
+  color: #315a79;
+  font: inherit;
+  font-size: 0.78em;
+  font-weight: 650;
+  line-height: inherit;
+  vertical-align: baseline;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.citation-marker:hover {
+  color: #193d5b;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.citation-popover {
+  position: fixed;
+  inset: auto;
+  box-sizing: border-box;
+  width: min(320px, calc(100vw - 24px));
+  max-width: calc(100vw - 24px);
+  max-height: min(300px, calc(100vh - 24px));
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #d9ded8;
+  border-radius: 12px;
+  background: #fff;
+  color: #353a35;
+  box-shadow: 0 12px 34px rgb(21 31 24 / 20%);
+  pointer-events: auto;
+  z-index: 10000;
+}
+
+.citation-popover-content {
+  display: block;
+  box-sizing: border-box;
+  max-height: min(300px, calc(100vh - 24px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 13px;
+}
+
+.citation-source-preview + .citation-source-preview {
+  margin-top: 12px;
+  padding-top: 11px;
+  border-top: 1px solid #eceee9;
+}
+
+.citation-source-preview {
+  display: block;
+}
+
+.citation-source-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  margin: 0;
+  color: #454b45;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.citation-source-number,
+.citation-source-page {
+  flex: none;
+  color: #737970;
+  font-weight: 500;
+}
+
+.citation-source-filename {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.citation-source-excerpt {
+  max-height: 112px;
+  margin: 8px 0 10px;
+  overflow-y: auto;
+  color: #5b615a;
+  font-size: 12px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.citation-open-pdf {
+  border: 0;
+  border-radius: 7px;
+  background: #edf3ee;
+  padding: 6px 9px;
+  color: #315a3d;
+  font-size: 11px;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.citation-open-pdf:hover {
+  background: #e0ebe1;
+}
+
+@media (max-width: 900px) {
+  .research-workspace {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(360px, 55dvh) minmax(440px, 1fr);
+    height: auto;
+    min-height: 100dvh;
+    padding: 8px;
+  }
+
+  .pdf-pane {
+    min-height: 0;
+    padding-right: 0;
+    padding-bottom: 8px;
+  }
+
+  .chat-pane {
+    min-height: 440px;
+  }
+}
+
+@media (max-width: 520px) {
+  .research-workspace {
+    grid-template-rows: minmax(340px, 50dvh) minmax(460px, 1fr);
+    padding: 6px;
+  }
+
+  .pdf-pane-header {
+    gap: 6px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+
+  .chat-pane-header {
+    gap: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .chat-conversation {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .chat-composer {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}

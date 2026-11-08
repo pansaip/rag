@@ -1,0 +1,93 @@
+{
+  "trace_version": 1,
+  "description": "Mock-only trace for demonstrating the offline evaluator; it is not a VANI performance measurement.",
+  "results": [
+    {
+      "case_id": "thai-authors",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [{ "document_id": "mock-doc-illustrative", "page_number": 1, "chunk_index": 0, "source_id": "S1", "score": 0.82 }],
+      "provided_source_ids": ["S1"],
+      "answer": "ตัวอย่างคำตอบ [S1]",
+      "citations": [{ "source_id": "S1", "document_id": "mock-doc-illustrative", "page_number": 1 }],
+      "predicted_answerable": true,
+      "latency_ms": 410
+    },
+    {
+      "case_id": "english-title",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [{ "document_id": "mock-doc-illustrative", "page_number": 1, "chunk_index": 0, "source_id": "S1", "score": 0.8 }],
+      "provided_source_ids": ["S1"],
+      "answer": "Illustrative title [S1]",
+      "citations": [{ "source_id": "S1", "document_id": "mock-doc-illustrative", "page_number": 1 }],
+      "predicted_answerable": true,
+      "latency_ms": 390
+    },
+    {
+      "case_id": "thai-overview",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [
+        { "document_id": "mock-doc-illustrative", "page_number": 5, "chunk_index": 15, "source_id": "S1", "score": 0.9 },
+        { "document_id": "mock-doc-illustrative", "page_number": 1, "chunk_index": 1, "source_id": "S2", "score": 0.76 },
+        { "document_id": "mock-doc-illustrative", "page_number": 1, "chunk_index": 5, "source_id": "S3", "score": 0.71 }
+      ],
+      "provided_source_ids": ["S1", "S2", "S3"],
+      "answer": "คำอธิบายภาพรวมตัวอย่าง [S2]",
+      "citations": [{ "source_id": "S2", "document_id": "mock-doc-illustrative", "page_number": 1 }],
+      "predicted_answerable": true,
+      "latency_ms": 520
+    },
+    {
+      "case_id": "english-overview",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [
+        { "document_id": "mock-doc-illustrative", "page_number": 1, "chunk_index": 1, "source_id": "S1", "score": 0.78 },
+        { "document_id": "mock-doc-illustrative", "page_number": 1, "chunk_index": 5, "source_id": "S2", "score": 0.74 }
+      ],
+      "provided_source_ids": ["S1", "S2"],
+      "answer": "Illustrative overview [S1]",
+      "citations": [{ "source_id": "S1", "document_id": "mock-doc-illustrative", "page_number": 1 }],
+      "predicted_answerable": true,
+      "latency_ms": 480
+    },
+    {
+      "case_id": "thai-specific",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [{ "document_id": "mock-doc-illustrative", "page_number": 3, "chunk_index": 8, "source_id": "S1", "score": 0.88 }],
+      "provided_source_ids": ["S1"],
+      "answer": "คำจำกัดความตัวอย่าง [S1]",
+      "citations": [{ "source_id": "S1", "document_id": "mock-doc-illustrative", "page_number": 3 }],
+      "predicted_answerable": true,
+      "latency_ms": 370
+    },
+    {
+      "case_id": "english-specific",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [{ "document_id": "mock-doc-illustrative", "page_number": 2, "chunk_index": 4, "source_id": "S1", "score": 0.84 }],
+      "provided_source_ids": ["S1"],
+      "answer": "A source-grounded example [S1]",
+      "citations": [{ "source_id": "S1", "document_id": "mock-doc-illustrative", "page_number": 2 }],
+      "predicted_answerable": true,
+      "latency_ms": 360
+    },
+    {
+      "case_id": "thai-unanswerable",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [],
+      "provided_source_ids": [],
+      "answer": "ไม่มีข้อมูลในเอกสาร",
+      "citations": [],
+      "predicted_answerable": false,
+      "latency_ms": 300
+    },
+    {
+      "case_id": "english-unanswerable",
+      "selected_document_id": "mock-doc-illustrative",
+      "retrieval": [],
+      "provided_source_ids": [],
+      "answer": "The document does not provide that information.",
+      "citations": [],
+      "predicted_answerable": false,
+      "latency_ms": 290
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "report_version": 1,
+  "dataset_name": "deep-sea-paper-vanilla-rag-human-review-v1",
+  "illustrative_labels": false,
+  "k": 10,
+  "sample_counts": {
+    "dataset_cases": 14,
+    "trace_results": 14,
+    "missing_trace_cases": 0,
+    "chunk_relevance_labelled_cases": 0,
+    "page_relevance_labelled_cases": 12,
+    "answerability_labelled_cases": 14
+  },
+  "metrics": {
+    "retrieval_hit_rate_at_k": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "eligible_cases": 0,
+      "missing_label_cases": 14,
+      "unit": "cases with >=1 exact relevant chunk"
+    },
+    "chunk_recall_at_k": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "eligible_cases": 0,
+      "missing_label_cases": 14,
+      "unit": "document-scoped relevant chunk indices"
+    },
+    "page_hit_rate_at_k": {
+      "value": 0.75,
+      "numerator": 9,
+      "denominator": 12,
+      "eligible_cases": 12,
+      "missing_label_cases": 2,
+      "unit": "cases with >=1 retrieved supporting page"
+    },
+    "supporting_page_accuracy": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "eligible_cases": 0,
+      "missing_label_cases": 14,
+      "unit": "citations resolving to an expected supporting page"
+    },
+    "citation_id_validity": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "eligible_cases": 0,
+      "missing_label_cases": 14,
+      "unit": "citations whose source_id was supplied to the model"
+    },
+    "answerability_accuracy": {
+      "value": null,
+      "numerator": 0,
+      "denominator": 0,
+      "eligible_cases": 0,
+      "missing_label_cases": 14,
+      "unit": "cases with predicted_answerable labels"
+    },
+    "response_latency_ms": {
+      "sample_count": 0,
+      "mean": null,
+      "median": null,
+      "max": null,
+      "unit": "milliseconds supplied by trace; no requests made"
+    }
+  },
+  "limitations": [
+    "This evaluator does not score semantic answer correctness, completeness, or faithfulness.",
+    "Answerability accuracy uses the explicitly supplied predicted_answerable trace label; it does not infer answerability from answer text.",
+    "Chunk relevance uses document-scoped chunk_index labels; a page match is reported separately and is never counted as a chunk match.",
+    "Retrieval rows were collected from the already-running local API; collection used read-only endpoints, made no LLM request, and created no local Qdrant client."
+  ],
+  "retrieval_path": "chat_candidate_reconstruction",
+  "retrieval_coverage": {
+    "dataset_cases": 14,
+    "successful_cases": 14,
+    "failed_or_missing_cases": 0
+  },
+  "failed_cases": [],
+  "candidate_path_counts": {
+    "first_page": 2,
+    "first_page_plus_vector": 1,
+    "vector": 11
+  }
+}

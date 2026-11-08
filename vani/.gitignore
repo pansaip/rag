@@ -1,0 +1,50 @@
+data/
+
+# Local frontend configuration
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local databases
+**/data/qdrant/
+**/data/neo4j/
+**/data/*.db
+**/data/*.sqlite
+**/data/*.sqlite3
+
+# Local PDFs and observability
+**/data/pdfs/
+**/data/observability/
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

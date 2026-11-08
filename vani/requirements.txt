@@ -1,0 +1,9 @@
+﻿fastapi
+uvicorn
+python-multipart
+pypdf
+langchain-text-splitters
+fastembed
+qdrant-client
+openai
+python-dotenv

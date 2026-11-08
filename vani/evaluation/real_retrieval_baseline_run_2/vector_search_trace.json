@@ -1,0 +1,1087 @@
+{
+  "trace_version": 1,
+  "retrieval_path": "vector_search_top10",
+  "source_endpoint": "POST /search",
+  "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+  "results": [
+    {
+      "case_id": "deep-sea-authors-th",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 17,
+          "chunk_index": 83,
+          "score": 0.32942715151006846
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 63,
+          "score": 0.3267526003326278
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 79,
+          "score": 0.3254807573074363
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 59,
+          "score": 0.2843483747985326
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 58,
+          "score": 0.27983572138251633
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 56,
+          "score": 0.27239911517876036
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 49,
+          "score": 0.271228179004673
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 60,
+          "score": 0.2463876267107406
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 12,
+          "chunk_index": 65,
+          "score": 0.2371769841122336
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 51,
+          "score": 0.23368451743652224
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-topic-th",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 17,
+          "score": 0.3801811815434628
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 19,
+          "score": 0.3570786462970894
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 36,
+          "score": 0.3471815262086133
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 6,
+          "score": 0.3444344832634999
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 2,
+          "score": 0.32989721848358244
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 3,
+          "chunk_index": 13,
+          "score": 0.3205575722073982
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 69,
+          "score": 0.31817173173063573
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 70,
+          "score": 0.318090719708374
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 58,
+          "score": 0.31788749527595844
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 3,
+          "chunk_index": 12,
+          "score": 0.31522133252771634
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-language-tiers-th",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 25,
+          "score": 0.6171662389451503
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 24,
+          "score": 0.6101278940537815
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 37,
+          "score": 0.6087818573241319
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 45,
+          "score": 0.5981450662671498
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 38,
+          "score": 0.5888445121056285
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 1,
+          "score": 0.5716719803489583
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 3,
+          "score": 0.5580747451556533
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 31,
+          "score": 0.5571069129261228
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 21,
+          "score": 0.5542828073207489
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 71,
+          "score": 0.5310407179774479
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-low-resource-math-comparison-th",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 29,
+          "score": 0.7317826023477848
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 14,
+          "chunk_index": 74,
+          "score": 0.7302088310354562
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 30,
+          "score": 0.6431579362245108
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 22,
+          "score": 0.6246673064296566
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 55,
+          "score": 0.6229395922976305
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 19,
+          "score": 0.6123388618823082
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 20,
+          "score": 0.6039198945111873
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 37,
+          "score": 0.5775347598541776
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 26,
+          "score": 0.5762981202898693
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 8,
+          "chunk_index": 40,
+          "score": 0.5737975817406213
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-english-cot-th",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 71,
+          "score": 0.649539306234824
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 2,
+          "score": 0.5814997980613791
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 32,
+          "score": 0.5666171354126723
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 51,
+          "score": 0.5259937875662621
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 8,
+          "chunk_index": 41,
+          "score": 0.513267740777404
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 33,
+          "score": 0.5106022160364003
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 36,
+          "score": 0.5038203919620365
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 17,
+          "chunk_index": 82,
+          "score": 0.48684130109801044
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 12,
+          "chunk_index": 65,
+          "score": 0.4848468214742272
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 24,
+          "score": 0.46595593841555705
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-tokenizer-lao-th",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 8,
+          "chunk_index": 44,
+          "score": 0.7288696930243297
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 8,
+          "chunk_index": 42,
+          "score": 0.5338564117595859
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 61,
+          "score": 0.5124481878433159
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 17,
+          "score": 0.4874602198877097
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 20,
+          "score": 0.45959410577850657
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 19,
+          "score": 0.4482092288047482
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 29,
+          "score": 0.442319634962939
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 2,
+          "score": 0.4336858665703745
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 55,
+          "score": 0.4284009205590579
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 28,
+          "score": 0.42604371189279966
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-author-degrees-unanswerable-th",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 63,
+          "score": 0.32320708487252103
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 79,
+          "score": 0.2816489932354554
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 17,
+          "chunk_index": 83,
+          "score": 0.28110817373408137
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 59,
+          "score": 0.2628319912900223
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 54,
+          "score": 0.2597804189930689
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 7,
+          "score": 0.2449824430499642
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 70,
+          "score": 0.24365317459241342
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 8,
+          "score": 0.23873597365677465
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 49,
+          "score": 0.2295831224352986
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 31,
+          "score": 0.22546970191119342
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-title-en",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 17,
+          "chunk_index": 83,
+          "score": 0.3570513907564199
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 79,
+          "score": 0.3274191527793856
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 3,
+          "chunk_index": 15,
+          "score": 0.23721503760872054
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 64,
+          "score": 0.21428298102464538
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 80,
+          "score": 0.21155849790661035
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 78,
+          "score": 0.20141619980679337
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 39,
+          "score": 0.1940572775331239
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 6,
+          "score": 0.1866370640263554
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 58,
+          "score": 0.18100423560897705
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 17,
+          "chunk_index": 82,
+          "score": 0.1783515074318547
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-five-tasks-en",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 6,
+          "score": 0.7541258466398062
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 46,
+          "score": 0.5875720414707561
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 5,
+          "score": 0.5829392565376367
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 45,
+          "score": 0.5789280934254235
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 1,
+          "score": 0.555918776045834
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 67,
+          "score": 0.527397232219751
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 16,
+          "score": 0.5136446820667644
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 9,
+          "score": 0.4762668003056752
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 4,
+          "score": 0.4725580055399804
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 69,
+          "score": 0.46463950774467166
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-task-datasets-en",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 6,
+          "score": 0.7631840519147455
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 46,
+          "score": 0.696477362706577
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 16,
+          "score": 0.6317914286099888
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 45,
+          "score": 0.6290647463849615
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 1,
+          "score": 0.62700612932193
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 67,
+          "score": 0.6245378028197697
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 69,
+          "score": 0.5918487972937286
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 5,
+          "score": 0.5913935795576539
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 9,
+          "score": 0.5736669789660085
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 4,
+          "score": 0.566044413580425
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-pivot-comparison-en",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 37,
+          "score": 0.6948160582975978
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 24,
+          "score": 0.6331191165164656
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 30,
+          "score": 0.6278985440832727
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 9,
+          "chunk_index": 45,
+          "score": 0.6010464347163749
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 27,
+          "score": 0.6006490700174483
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 20,
+          "score": 0.5938222891164899
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 25,
+          "score": 0.5899350932793948
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 26,
+          "score": 0.5882943896085824
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 21,
+          "score": 0.5855196664804275
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 7,
+          "score": 0.5629947614255179
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-lawas-example-en",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 2,
+          "chunk_index": 7,
+          "score": 0.5467109985849812
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 38,
+          "score": 0.546024650581846
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 3,
+          "chunk_index": 10,
+          "score": 0.5336621135083337
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 8,
+          "chunk_index": 43,
+          "score": 0.5313480395941934
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 39,
+          "score": 0.5216502844301383
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 8,
+          "chunk_index": 41,
+          "score": 0.5082111935934213
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 51,
+          "score": 0.5000073744754853
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 79,
+          "score": 0.49835577014248256
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 1,
+          "chunk_index": 0,
+          "score": 0.4969330759505243
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 11,
+          "chunk_index": 60,
+          "score": 0.4966803981908241
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-contextual-hallucination-en",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 8,
+          "chunk_index": 41,
+          "score": 0.6497417426135962
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 80,
+          "score": 0.49838095771043156
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 10,
+          "chunk_index": 51,
+          "score": 0.4877268417311684
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 7,
+          "chunk_index": 38,
+          "score": 0.4776205689133822
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 3,
+          "chunk_index": 13,
+          "score": 0.46507577470146333
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 3,
+          "chunk_index": 15,
+          "score": 0.45555999457410346
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 16,
+          "chunk_index": 79,
+          "score": 0.4449471560255527
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 26,
+          "score": 0.41937188426031385
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 71,
+          "score": 0.41923229002523077
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 18,
+          "score": 0.41802175320634977
+        }
+      ]
+    },
+    {
+      "case_id": "deep-sea-inference-spend-unanswerable-en",
+      "selected_document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+      "retrieval_path": "vector_search_top10",
+      "retrieval": [
+        {
+          "rank": 1,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 19,
+          "score": 0.4343110191538797
+        },
+        {
+          "rank": 2,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 17,
+          "score": 0.39375346608268025
+        },
+        {
+          "rank": 3,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 69,
+          "score": 0.39308776407962603
+        },
+        {
+          "rank": 4,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 4,
+          "chunk_index": 16,
+          "score": 0.38375070687436885
+        },
+        {
+          "rank": 5,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 15,
+          "chunk_index": 76,
+          "score": 0.3817219138539642
+        },
+        {
+          "rank": 6,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 14,
+          "chunk_index": 73,
+          "score": 0.37888515941199724
+        },
+        {
+          "rank": 7,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 5,
+          "chunk_index": 22,
+          "score": 0.37238921838353267
+        },
+        {
+          "rank": 8,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 13,
+          "chunk_index": 71,
+          "score": 0.35552693981622396
+        },
+        {
+          "rank": 9,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 3,
+          "chunk_index": 13,
+          "score": 0.3519735376456484
+        },
+        {
+          "rank": 10,
+          "document_id": "12cc259a-5f4f-479d-a4c4-0a1583d67a51",
+          "page_number": 6,
+          "chunk_index": 29,
+          "score": 0.3463402351224784
+        }
+      ]
+    }
+  ],
+  "failed_cases": []
+}

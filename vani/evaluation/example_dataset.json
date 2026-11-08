@@ -1,0 +1,88 @@
+{
+  "dataset_version": 1,
+  "name": "vani-illustrative-baseline",
+  "illustrative": true,
+  "description": "Synthetic examples to demonstrate the evaluation format. Labels are not ground truth for any arbitrary PDF.",
+  "cases": [
+    {
+      "case_id": "thai-authors",
+      "question": "ใครเขียนเปเปอร์นี้",
+      "document_fixture": "illustrative-paper",
+      "answer_criteria": "Name only authors explicitly shown in the indexed source text.",
+      "expected_support": { "pages": [1], "chunk_indices": [0] },
+      "answerable": true,
+      "language": "th",
+      "category": "metadata_authors"
+    },
+    {
+      "case_id": "english-title",
+      "question": "What is the title of this paper?",
+      "document_fixture": "illustrative-paper",
+      "expected_answer": "An explicitly labeled illustrative paper title.",
+      "expected_support": { "pages": [1], "chunk_indices": [0] },
+      "answerable": true,
+      "language": "en",
+      "category": "metadata_title"
+    },
+    {
+      "case_id": "thai-overview",
+      "question": "เปเปอร์นี้เกี่ยวกับอะไร",
+      "document_fixture": "illustrative-paper",
+      "answer_criteria": "Summarize the paper topic using its abstract or introduction evidence.",
+      "expected_support": { "pages": [1], "chunk_indices": [1, 5] },
+      "answerable": true,
+      "language": "th",
+      "category": "overview"
+    },
+    {
+      "case_id": "english-overview",
+      "question": "What is this paper about?",
+      "document_fixture": "illustrative-paper",
+      "answer_criteria": "Summarize the topic without adding unsupported details.",
+      "expected_support": { "pages": [1], "chunk_indices": [1, 5] },
+      "answerable": true,
+      "language": "en",
+      "category": "overview"
+    },
+    {
+      "case_id": "thai-specific",
+      "question": "DEEP SEA คืออะไร",
+      "document_fixture": "illustrative-paper",
+      "answer_criteria": "Explain the term using the explicitly labeled source passage.",
+      "expected_support": { "pages": [3], "chunk_indices": [8] },
+      "answerable": true,
+      "language": "th",
+      "category": "specific_factual"
+    },
+    {
+      "case_id": "english-specific",
+      "question": "What does the paper define as its benchmark?",
+      "document_fixture": "illustrative-paper",
+      "answer_criteria": "Return the benchmark only if the source passage states it.",
+      "expected_support": { "pages": [2], "chunk_indices": [4] },
+      "answerable": true,
+      "language": "en",
+      "category": "specific_factual"
+    },
+    {
+      "case_id": "thai-unanswerable",
+      "question": "ผู้เขียนเกิดวันไหน",
+      "document_fixture": "illustrative-paper",
+      "answer_criteria": "Say the document does not provide this personal detail.",
+      "expected_support": null,
+      "answerable": false,
+      "language": "th",
+      "category": "unanswerable"
+    },
+    {
+      "case_id": "english-unanswerable",
+      "question": "What is the author's home address?",
+      "document_fixture": "illustrative-paper",
+      "answer_criteria": "Do not guess; the document has no evidence for this detail.",
+      "expected_support": null,
+      "answerable": false,
+      "language": "en",
+      "category": "unanswerable"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "report_version": 1,
+  "dataset_name": "vani-illustrative-baseline",
+  "illustrative_labels": true,
+  "k": 5,
+  "sample_counts": {
+    "dataset_cases": 8,
+    "trace_results": 8,
+    "missing_trace_cases": 0,
+    "chunk_relevance_labelled_cases": 6,
+    "page_relevance_labelled_cases": 6,
+    "answerability_labelled_cases": 8
+  },
+  "metrics": {
+    "retrieval_hit_rate_at_k": {
+      "value": 1.0,
+      "numerator": 6,
+      "denominator": 6,
+      "eligible_cases": 6,
+      "missing_label_cases": 2,
+      "unit": "cases with >=1 exact relevant chunk"
+    },
+    "chunk_recall_at_k": {
+      "value": 1.0,
+      "numerator": 8,
+      "denominator": 8,
+      "eligible_cases": 6,
+      "missing_label_cases": 2,
+      "unit": "document-scoped relevant chunk indices"
+    },
+    "page_hit_rate_at_k": {
+      "value": 1.0,
+      "numerator": 6,
+      "denominator": 6,
+      "eligible_cases": 6,
+      "missing_label_cases": 2,
+      "unit": "cases with >=1 retrieved supporting page"
+    },
+    "supporting_page_accuracy": {
+      "value": 1.0,
+      "numerator": 6,
+      "denominator": 6,
+      "eligible_cases": 6,
+      "missing_label_cases": 2,
+      "unit": "citations resolving to an expected supporting page"
+    },
+    "citation_id_validity": {
+      "value": 1.0,
+      "numerator": 6,
+      "denominator": 6,
+      "eligible_cases": 8,
+      "missing_label_cases": 0,
+      "unit": "citations whose source_id was supplied to the model"
+    },
+    "answerability_accuracy": {
+      "value": 1.0,
+      "numerator": 8,
+      "denominator": 8,
+      "eligible_cases": 8,
+      "missing_label_cases": 0,
+      "unit": "cases with predicted_answerable labels"
+    },
+    "response_latency_ms": {
+      "sample_count": 8,
+      "mean": 390.0,
+      "median": 380.0,
+      "max": 520.0,
+      "unit": "milliseconds supplied by trace; no requests made"
+    }
+  },
+  "limitations": [
+    "This evaluator does not score semantic answer correctness, completeness, or faithfulness.",
+    "Answerability accuracy uses the explicitly supplied predicted_answerable trace label; it does not infer answerability from answer text.",
+    "Chunk relevance uses document-scoped chunk_index labels; a page match is reported separately and is never counted as a chunk match.",
+    "Illustrative example labels are not ground truth for arbitrary PDFs. Replace them with human-verified labels before interpreting scores.",
+    "All metrics use supplied files only; the runner does not call an LLM or connect to Qdrant."
+  ]
+}

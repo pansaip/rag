@@ -1,0 +1,18 @@
+{
+  "coverage": {
+    "dataset_cases": 14,
+    "vector_search_succeeded": 14,
+    "vector_search_failed": 0,
+    "chat_candidates_reconstructed": 14,
+    "chat_candidates_unavailable": 0,
+    "first_page_diagnostics_available": true,
+    "first_page_truncated": false,
+    "first_page_chunk_count": 6,
+    "chat_candidate_paths": {
+      "first_page": 2,
+      "first_page_plus_vector": 1,
+      "vector": 11
+    }
+  },
+  "diagnostic_failure": null
+}

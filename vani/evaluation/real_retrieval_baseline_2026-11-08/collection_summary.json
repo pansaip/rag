@@ -1,0 +1,20 @@
+{
+  "coverage": {
+    "dataset_cases": 14,
+    "vector_search_succeeded": 14,
+    "vector_search_failed": 0,
+    "chat_candidates_reconstructed": 11,
+    "chat_candidates_unavailable": 3,
+    "first_page_diagnostics_available": false,
+    "first_page_truncated": false,
+    "first_page_chunk_count": 0,
+    "chat_candidate_paths": {
+      "vector": 11
+    }
+  },
+  "diagnostic_failure": {
+    "case_id": "_first_page_diagnostic",
+    "error_type": "http_error",
+    "http_status": 404
+  }
+}
